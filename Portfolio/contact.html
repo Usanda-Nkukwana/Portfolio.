@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Usanda Nkukwana">
+        <title>Contact | Usanda Nkukwana</title>
+        <link rel="stylesheet" href="contact.css">
+        <script src="contact.js" defer></script>
+    </head>
+    <body>
+        <header class="site-header">
+            <nav class="top-nav">
+                <div class="brand">Usanda.</div>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="container contact-layout">
+            <section class="contact-details">
+                <p class="eyebrow">Get in touch</p>
+                <h1>Let’s build something meaningful.</h1>
+                <p>
+                    I’m open to freelance opportunities, collaborative projects, internships, and conversations about building innovative solutions.
+                </p>
+
+                <ul class="contact-list">
+                    <li><strong>Email:</strong> usandankukwana2@gmail.com</li>
+                    <li><strong>Phone:</strong> 063 453 5401 </li>
+                    <li><strong>Location:</strong> South Africa Eastern Cape </li>
+                    <li><strong>GitHub:</strong> github.com/usanda</li>
+                </ul>
+            </section>
+
+            <section class="contact-form">
+                <h2>Send a message</h2>
+                <form>
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name">
+                    </div>
+
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="your@email.com">
+                    </div>
+
+                    <div>
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject">
+                            <option>Project Enquiry</option>
+                            <option>Job Opportunity</option>
+                            <option>Internship</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Tell me about your project or opportunity..."></textarea>
+                    </div>
+
+                    <button class="btn primary" type="submit">Send Message</button>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>
